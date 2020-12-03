@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { getTransactions } from "./api";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App getTransactions={getTransactions} />
   </React.StrictMode>,
   document.getElementById('root')
 );

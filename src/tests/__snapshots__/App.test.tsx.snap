@@ -1,0 +1,2352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should filter by smallest expenses on check Smallest expenses checkbox 1`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Costa Coffee
+        </td>
+        <td>
+          -3.75
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-04
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Wilko
+        </td>
+        <td>
+          -10.76
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pact Coffee
+        </td>
+        <td>
+          -19.99
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -34.98
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Asda
+        </td>
+        <td>
+          -51.19
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Lewis
+        </td>
+        <td>
+          -76.45
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vue Cinema
+        </td>
+        <td>
+          -99.89
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ebay
+        </td>
+        <td>
+          -120.29
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -145.25
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-24
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gaucho
+        </td>
+        <td>
+          -151.25
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should filter by smallest expenses on check Smallest expenses checkbox 2`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -145.25
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-24
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Wilko
+        </td>
+        <td>
+          -10.76
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pact Coffee
+        </td>
+        <td>
+          -19.99
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -34.98
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Lewis
+        </td>
+        <td>
+          -76.45
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Asda
+        </td>
+        <td>
+          -51.19
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gaucho
+        </td>
+        <td>
+          -151.25
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vue Cinema
+        </td>
+        <td>
+          -99.89
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Costa Coffee
+        </td>
+        <td>
+          -3.75
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-04
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ebay
+        </td>
+        <td>
+          -120.29
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should filter quantity 1`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should filter quantity 2`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should filter quantity 3`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -145.25
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-24
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Wilko
+        </td>
+        <td>
+          -10.76
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pact Coffee
+        </td>
+        <td>
+          -19.99
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -34.98
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Lewis
+        </td>
+        <td>
+          -76.45
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should filter quantity 4`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -145.25
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-24
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Wilko
+        </td>
+        <td>
+          -10.76
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pact Coffee
+        </td>
+        <td>
+          -19.99
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -34.98
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Lewis
+        </td>
+        <td>
+          -76.45
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Asda
+        </td>
+        <td>
+          -51.19
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gaucho
+        </td>
+        <td>
+          -151.25
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vue Cinema
+        </td>
+        <td>
+          -99.89
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Costa Coffee
+        </td>
+        <td>
+          -3.75
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-04
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ebay
+        </td>
+        <td>
+          -120.29
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should render App component 1`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          colspan="3"
+        >
+          Loading...
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`App should render App component 2`] = `
+<div
+  class="app"
+>
+  <div
+    class="header"
+  >
+    <div>
+      <input
+        id="filter"
+        type="checkbox"
+      />
+      <label
+        for="filter"
+      >
+        Smallest expenses
+      </label>
+    </div>
+    <div>
+      <label
+        for="quantity"
+      >
+        Quantity: 
+      </label>
+      <select
+        id="quantity"
+      >
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="15"
+        >
+          15
+        </option>
+        <option
+          value="all"
+        >
+          all
+        </option>
+      </select>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Description
+        </th>
+        <th>
+          Cost
+        </th>
+        <th>
+          Category
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -57.21
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-06-30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Max Mustermann
+        </td>
+        <td>
+          510.55
+           
+          GBP
+        </td>
+        <td>
+          Income
+        </td>
+        <td>
+          2018-06-22
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -99.95
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Transport for London
+        </td>
+        <td>
+          -2.85
+           
+          GBP
+        </td>
+        <td>
+          Transport
+        </td>
+        <td>
+          2018-07-05
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pret a Manger
+        </td>
+        <td>
+          -35.87
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-09
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vodafone
+        </td>
+        <td>
+          -29.99
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Marks & Spencer
+        </td>
+        <td>
+          -45.23
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          British Gas
+        </td>
+        <td>
+          -48.75
+           
+          GBP
+        </td>
+        <td>
+          Bills
+        </td>
+        <td>
+          2018-06-29
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BrewDog Shoreditch
+        </td>
+        <td>
+          -76.06
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-06-25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -1678.49
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-11
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Amazon
+        </td>
+        <td>
+          -145.25
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-06-24
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Wilko
+        </td>
+        <td>
+          -10.76
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pact Coffee
+        </td>
+        <td>
+          -19.99
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Tesco
+        </td>
+        <td>
+          -34.98
+           
+          GBP
+        </td>
+        <td>
+          Groceries
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Lewis
+        </td>
+        <td>
+          -76.45
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Asda
+        </td>
+        <td>
+          -51.19
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gaucho
+        </td>
+        <td>
+          -151.25
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Vue Cinema
+        </td>
+        <td>
+          -99.89
+           
+          GBP
+        </td>
+        <td>
+          Entertainment
+        </td>
+        <td>
+          2018-07-01
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Costa Coffee
+        </td>
+        <td>
+          -3.75
+           
+          GBP
+        </td>
+        <td>
+          Eating Out
+        </td>
+        <td>
+          2018-07-04
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ebay
+        </td>
+        <td>
+          -120.29
+           
+          GBP
+        </td>
+        <td>
+          Shopping
+        </td>
+        <td>
+          2018-07-03
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
