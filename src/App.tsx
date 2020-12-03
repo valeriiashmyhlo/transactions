@@ -5,18 +5,20 @@ import { Transaction } from "./types";
 
 type Quantity = 5 | 10 | 15 | "all";
 
-const App: FC<{ getTransactions: () => Promise<Transaction[]> }> = ({ getTransactions }) => {
+const App: FC<{ getTransactions: () => Promise<Transaction[]> }> = ({
+  getTransactions,
+}) => {
   const [isFilterActive, setFilterActive] = useState(false);
   const [quantity, setQuantity] = useState<Quantity>("all");
   const [transactions, isLoaded, error] = useTransactions(getTransactions);
 
   const quantityOptions: Quantity[] = [5, 10, 15, "all"];
-  let currentTransactions = transactions;
 
+  let currentTransactions = transactions;
   if (isFilterActive) {
-    currentTransactions = [...currentTransactions].sort(
-      (a, b) => b.amount.value - a.amount.value
-    ).filter(({ amount }) => amount.value < 0);
+    currentTransactions = [...currentTransactions]
+      .sort((a, b) => b.amount.value - a.amount.value)
+      .filter(({ amount }) => amount.value < 0);
   }
   if (quantity !== "all") {
     currentTransactions = currentTransactions.slice(0, quantity);
@@ -89,6 +91,6 @@ const App: FC<{ getTransactions: () => Promise<Transaction[]> }> = ({ getTransac
       </table>
     </div>
   );
-}
+};
 
 export default App;
