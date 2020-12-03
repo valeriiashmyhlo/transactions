@@ -10,13 +10,12 @@ describe("App", () => {
     const { container, getByText } = render(
       <App getTransactions={getTransactions} />
     );
-
     expect(container.firstChild).toMatchSnapshot();
     await waitFor(() => getByText("Smallest expenses"));
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it("should filter by smallest expenses on check Smallest expenses checkbox", async () => {
+  it('should filter by smallest expenses on check "Smallest expenses" checkbox', async () => {
     const { container, getByLabelText } = render(
       <App getTransactions={getTransactions} />
     );
